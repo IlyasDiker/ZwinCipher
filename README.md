@@ -5,4 +5,6 @@ it use a random key generated depending on the time & the key is hidden inside t
 
 which mean it will give you random text each time you crypt the text which make the cipher `semi-impossible to crack`. 😁
 
+i will add more difficulty to it later or maybe never..
+
 ![](https://i.imgur.com/PhXGfK3.png)
