@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilyas Cipher</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <link rel="stylesheet/less" type="text/css" href="style.less" />
+    <script src="cryptedjs.js"></script>
+	<link rel="shortcut icon" href="imgs/canalogo.png" />
+    <script src="libs/less.min.js" ></script>
+    <script src="libs/jquery-3.5.0.js" ></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script>
+        function showbook() {
+            Swal.fire({
+                title: 'Codes and ciphers',
+                width: 800,
+                html: '<embed id="bk" src="book.pdf#toolbar=0&navpanes=0&scrollbar=0">',
+                showCloseButton: true,
+                })
+        }
+    </script>
+</head>
+<body>
+        <div class="title">
+            <br/>
+            <h1>Behind every <strong>code</strong> is an <strong>enigma</strong></h1>
+            <h4>LEZWIN Cipher</h4>
+            <br/><br/>
+        </div>
+        <div class="field">
+            <h3>Input</h3>
+            <textarea id="tocrypt"></textarea>
+        </div>
+        <div class="field">
+            <button onclick="crypt()">Crypt</button>
+            <button onclick="decrypt()">Decrypt</button>
+        </div>
+        <div class="field">
+            <h3>Result</h3>
+            <textarea id="todecrypt"></textarea>
+        </div>
+        <div class="field">
+            <p></a><strong onclick="showbook()">Click me to understand how this is working</strong></p>
+        </div>
+</body>
+</html>

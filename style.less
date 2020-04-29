@@ -1,0 +1,58 @@
+@arshamgreen : #00ff96;
+@light: rgb(222, 242, 248);
+@dark: #1A1F16;
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.title{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.field{
+    width: 800px;
+    border: solid 1px @dark;
+    margin: 10px auto;
+    h3{
+        margin: 5px;
+    }
+    textarea{
+        width: 98%;
+        height: 100px;
+        margin:  5px 7px;
+    }
+    button{
+        width: 48%;
+        margin: 5px;
+        height: 30px;
+        &:hover{
+            color: @arshamgreen;
+            background-color: @dark;
+        }
+    }
+    &:hover{
+        background-color: @light;
+    }
+    p{
+        text-align: center;
+        padding: 20px;
+        
+    }
+    
+    
+}
+strong{
+            background-color: @arshamgreen;
+}
+embed{
+    display: block;
+    width: 98%;
+    margin: 5px;
+    height: 500px;
+}
