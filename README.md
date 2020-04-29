@@ -1,4 +1,4 @@
-# ZwinCipher
+# LEZWIN Cipher
 I Created this cipher for fun, it can crypt a text over and over & you can decrypt a crypted text 
 
 it use a random key generated depending on the time & the key is hidden inside the message.
